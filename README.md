@@ -6,8 +6,6 @@ This repository contains the code for our work "**Self-Evolving Depth-Supervised
 
 by [Sadra Safadoust](https://sadrasafa.github.io/), [Fabio Tosi](https://fabiotosi92.github.io/), [Fatma Güney](https://mysite.ku.edu.tr/fguney/), and [Matteo Poggi](https://mattpoggi.github.io/)
 
-### [Project Page](https://kuis-ai.github.io/multi-object-segmentation/) | [Paper](https://arxiv.org/abs/2307.08027)
-
 
 ## :bookmark_tabs: Table of Contents
 
