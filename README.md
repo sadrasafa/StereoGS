@@ -60,7 +60,7 @@ We experiment on three datasets: ETH3D, ScanNet++, and BlendedMVS. For each of t
                 ├── points3D.txt
         
 ```            
-You can ignore `val_cams.json` if you don't want to have the same train/val split as ours. You can download them for each scene from [here](here).
+You can ignore `val_cams.json` if you don't want to have the same train/val split as ours. You can download them for each scene from [here](https://drive.google.com/drive/folders/1hunI7RbfeunUGR6PWdhJPPpPitjeWoBk?usp=sharing).
 
 ### 1. ETH3D
 
