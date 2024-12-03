@@ -24,7 +24,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvi
 conda install plyfile tqdm
 ```
 
-Clone the repositroy and its submodules, and install the submodules (Note that we use a rasterizer different from the original [3DGS](https://github.com/graphdeco-inria/gaussian-splatting)\):
+Clone the repository and its submodules, and install the submodules (Note that we use a rasterizer different from the original [3DGS](https://github.com/graphdeco-inria/gaussian-splatting)\):
 ```
 git clone https://github.com/sadrasafa/StereoGS.git --recursive
 pip install submodules/depth-diff-gaussian-rasterization
@@ -67,7 +67,7 @@ We only need the undistorted jpg images and the undistorted depths. Note that on
 
 ### 2. ScanNet++
 
-Download the dataset from [here](https://kaldir.vc.in.tum.de/scannetpp/). We use the DSLR data for the `8b5caf3398` and `b20a261fdf` scenes. Follow the instructions at [Official ScanNet++ Toolkit](https://github.com/scannetpp/scannetpp) to render depth and then undistort the images and depths. Note that the provided undistortion script only undistorts the images, however it can be easily extended to undistort depths too (e.g., check [this](https://github.com/scannetpp/scannetpp/issues/65#issuecomment-1939346286)). Also, it saves the camera intrinsics for the undistorted pinhle camera in the nerfstudio's json format, so make sure to update the camera parameters in the colmap format (`cameras.txt`) accordingly as well.
+Download the dataset from [here](https://kaldir.vc.in.tum.de/scannetpp/). We use the DSLR data for the `8b5caf3398` and `b20a261fdf` scenes. Follow the instructions at [Official ScanNet++ Toolkit](https://github.com/scannetpp/scannetpp) to render depth and then undistort the images and depths. Note that the provided undistortion script only undistorts the images, however it can be easily extended to undistort depths too (e.g., check [this](https://github.com/scannetpp/scannetpp/issues/65#issuecomment-1939346286)). Also, it saves the camera intrinsics for the undistorted pinhole camera in the nerfstudio's json format, so make sure to update the camera parameters in the colmap format (`cameras.txt`) accordingly as well.
 
 ### 3. BlendedMVS
 
