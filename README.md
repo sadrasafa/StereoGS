@@ -24,7 +24,7 @@ conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch -c nvi
 conda install plyfile tqdm
 ```
 
-Clone the repositroy and its submodules, and install the submodules (Note that we use a different rasterize than the original [3DGS](https://github.com/graphdeco-inria/gaussian-splatting)\):
+Clone the repositroy and its submodules, and install the submodules (Note that we use a different rasterizer than the original [3DGS](https://github.com/graphdeco-inria/gaussian-splatting)\):
 ```
 git clone https://github.com/sadrasafa/StereoGS.git --recursive
 pip install submodules/depth-diff-gaussian-rasterization
