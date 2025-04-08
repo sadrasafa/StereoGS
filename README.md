@@ -31,7 +31,7 @@ pip install submodules/depth-diff-gaussian-rasterization
 pip install submodules/simple-knn
 ```
 
-Clone [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo) into `utils\`. install its requirements, download its checkpoints, and compile the CUDA implementation of correlation sampler:
+Clone [RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo) into `utils/`. install its requirements, download its checkpoints, and compile the CUDA implementation of correlation sampler:
 ```
 cd utils
 git clone https://github.com/princeton-vl/RAFT-Stereo.git
